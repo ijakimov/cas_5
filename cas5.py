@@ -14,7 +14,7 @@ class EmissionsApi:
         self.__path_param = path_param
         self.__path = path
         self.__params = params
-
+# print("asd")
     def request_no_body(self):
         url = f'{self.__url}{self.__endpoint}'
         headers = self.__headers
