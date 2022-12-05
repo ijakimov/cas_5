@@ -62,5 +62,4 @@ params = {
 
 tret_endpoint = EmissionsApi(requests.get, url1, endpoint3, headers1, path_param=path3_param, path=path3, params=params)
 tret_povik = tret_endpoint.request_with_path_parameters()
-# print(tret_povik)
-
+print(tret_povik)
